@@ -2,14 +2,28 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { Navbar } from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const Index = () => {
   const { t } = useLanguage();
 
-  const committeeMembers = [
-    "Sana BEN ABDALLAH - FSEG Sfax, Tunisia",
-    "Karim KAMMOUN – ISGIS Sfax, Tunisia",
-    // ... Add all committee members
+  const topics = [
+    "Climate change: measurements, modelling, and predictions",
+    "Sustainable finance",
+    "Sustainable development goals",
+    "Environmental, Social, and Governance (ESG) factors",
+    "Corporate Social Responsibility (CSR) strategy",
+    "Sustainability, regulation and risks",
+    "Fintech, digitalisation, technology and Sustainability",
+    "Artificial intelligence, blockchain, technology and sustainability",
+    "Sustainable accounting",
+    "Ethics in finance, islamic finance"
+  ];
+
+  const partnerLogos = [
+    "/lovable-uploads/5f60ebc6-a997-4571-95dc-f818be241ab5.png", // FSEG Sfax
+    "/lovable-uploads/55d7b386-c0a5-4d8d-9244-35f3e4a515d8.png", // AFN
+    "/lovable-uploads/6c2f4035-8bd6-42e3-b6d1-19d90377153b.png", // University of Sfax
   ];
 
   return (
@@ -42,32 +56,17 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-8">{t('event.honorary')}</h2>
           <Card className="max-w-3xl mx-auto p-8">
-            <h3 className="text-2xl font-bold mb-4">{t('event.guest.name')}</h3>
-            <p className="text-gray-600">{t('event.guest.title')}</p>
+            <div className="flex flex-col md:flex-row items-center gap-8">
+              <Avatar className="w-48 h-48">
+                <AvatarImage src="/lovable-uploads/a9390b77-b36e-489a-914e-1c81818abef0.png" alt="Christian de Boissieu" />
+                <AvatarFallback>CdB</AvatarFallback>
+              </Avatar>
+              <div>
+                <h3 className="text-2xl font-bold mb-4">{t('event.guest.name')}</h3>
+                <p className="text-gray-600">{t('event.guest.title')}</p>
+              </div>
+            </div>
           </Card>
-        </div>
-      </section>
-
-      {/* About Challenge Section */}
-      <section className="section-padding bg-gray-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="prose prose-lg mx-auto">
-            <p className="text-gray-600 leading-relaxed">
-              {t('about.challenge')}
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Purpose Section */}
-      <section className="section-padding bg-white">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-8">{t('purpose.title')}</h2>
-          <div className="prose prose-lg mx-auto">
-            <p className="text-gray-600 leading-relaxed">
-              {t('purpose.description')}
-            </p>
-          </div>
         </div>
       </section>
 
@@ -76,13 +75,30 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-8">{t('topics.title')}</h2>
           <ul className="max-w-3xl mx-auto space-y-4">
-            {t('topics.list').map((topic, index) => (
+            {topics.map((topic, index) => (
               <li key={index} className="flex items-start">
                 <span className="text-primary mr-2">•</span>
                 <span>{topic}</span>
               </li>
             ))}
           </ul>
+        </div>
+      </section>
+
+      {/* Partners Section */}
+      <section className="section-padding bg-white">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-12">Partners</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center">
+            {partnerLogos.map((logo, index) => (
+              <img 
+                key={index}
+                src={logo}
+                alt="Partner logo"
+                className="max-h-24 w-auto object-contain"
+              />
+            ))}
+          </div>
         </div>
       </section>
 

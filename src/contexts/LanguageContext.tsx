@@ -49,7 +49,11 @@ const translations = {
     'committee.title': 'Committee members',
     'scientific.title': 'Scientific Committee',
     'contact.title': 'Contact',
-    'contact.email': 'Contact us at: sana.ben.abdallah@fsegs.usf.tn'
+    'contact.email': 'Contact us at: sana.ben.abdallah@fsegs.usf.tn',
+    'nav.about': 'About',
+    'nav.schedule': 'Schedule',
+    'nav.speakers': 'Speakers',
+    'nav.partners': 'Partners',
   },
   fr: {
     'event.title': 'Finance Durable 2024',
@@ -91,7 +95,11 @@ const translations = {
     'committee.title': 'Membres du comité',
     'scientific.title': 'Comité scientifique',
     'contact.title': 'Contact',
-    'contact.email': 'Contactez-nous à : sana.ben.abdallah@fsegs.usf.tn'
+    'contact.email': 'Contactez-nous à : sana.ben.abdallah@fsegs.usf.tn',
+    'nav.about': 'À propos',
+    'nav.schedule': 'Programme',
+    'nav.speakers': 'Intervenants',
+    'nav.partners': 'Partenaires',
   }
 };
 
