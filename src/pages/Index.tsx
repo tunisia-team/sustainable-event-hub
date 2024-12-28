@@ -1,30 +1,45 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Navbar } from "@/components/Navbar";
-import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+
+const committeeMembers = [
+  "Sana BEN ABDALLAH - FSEG Sfax, Tunisia",
+  "Karim KAMMOUN – ISGIS Sfax, Tunisia",
+  "Farhat BREIK – FSEG Sfax, Tunisia",
+  "Younes BOUJELBENE – FSEG Sfax, Tunisia",
+  "Bilel GARGOURI – FSEG Sfax, Tunisia",
+  "Foued Badr GABSI – FSEG Sfax, Tunisia",
+  "Nouri CHTOUROU – FSEG Sfax, Tunisia",
+  "Tarik EL MALKI – Group ISCAE, Morocco",
+  "Nabil JEDELANE – ENCG Tanger, Morocco",
+  "Mohamed Amine ISSAMI – Group ISCAE, Morocco",
+  "Dhafer SAIDANE – SKEMA Business School, France",
+  "Lobna BEN HSSEN – FSEG Sfax, Tunisia",
+  "Mouna BOUJELBANE – FSEG Sfax, Tunisia",
+  "Lamia BELGUITH – FSEG Sfax, Tunisia",
+  "Mohamed BEN AMAR – FSEG Sfax, Tunisia",
+  "Souhir ABBES – FSEG Sfax, Tunisia",
+  "Salma HICHRI – FSEG Sfax, Tunisia",
+  "Nahed ZGHIDI – ESC Sfax, Tunisia",
+  "Sofiene TIBA – FSEG Sfax, Tunisia",
+  "Maryam ELAMINE – FSEG Sfax, Tunisia",
+  "Ines KARRA – FSEG Sfax, Tunisia"
+];
+
+const scientificCommittee = `Abdelfatteh Bouri (FSEG Sfax) ; Abderrazak Ellouze (ESC Tunis) ; Azzelarab Zaoudi Mouagni (ISCAE Maroc) ; Adil BAMI (ISCAE Maroc) ; Ahmed Ghorbel (FSEG Sfax) ; Ahmed Hachicha (ESC Sfax) ; Alain Safa (UCA, France) ; Amine Lahiani (Université d'Orléans, France) ; Anis Bouabid, (FSEG Sousse) ; Anis Jarboui (ISAA Sfax) ; Babacar Sène (Université Cheikh Anta Diop, Sénégal) ; Bilel Gargouri (FSEG Sfax) ; Borhen Trigui (FSEG Sfax) ; Chafic Aloulou (FSEG Sfax) ; Claude Berthomieu (UCA, France) ; Désiré Avom (Université de Yaoundé, Cameroun) ; Dhafer Saidane (Skema Busuness School-UCA, France) ; Faiez Gargouri (Université de Sfax) ; Faouzi Sboui (FSEG Mahdia) ; Foued Badr Gabsi (FSEG Sfax) ; Ghazi Zouari (FSEG Sfax) ; Habib Affes (FSEG Sfax) ; Hamadi Fakhfakh (FSEG Sfax) ; Hatem Belhadjkacem (FSEG Sfax) ; Hatem SALAH (ESC Tunis) ; Houssam Bouzgarrou (ISFFS) ; Isabelle Rabaud (Université d'Orléans, France) ; Jamel Chouaibi (FSEG Sfax) ; Kamel Helali (FSEG Sfax) ; Kamel Naoui (ESC Tunis) ; Karim Aarab (ISCAE Maroc) ; Karim Charaf (ISCAE Maroc) ; Karim Mezghani (FSEG Sfax) ; Karima Bouzguenda (FSEG Sfax) ; Khouloud Boukadi (FSEG Sfax) ; Khoutem Ben Jdidia (ISCAE Manouba) ; Lamia Hadrich Belguith (FSEG Sfax) ; Lobna Ben Hassen (FSEG Sfax) ; Lotfi Khrifech (FSEG Sfax) ; Maher Gassab (ESC Tunis) ; Malek El Weriemmi (ISG Gabes) ; Mihaly Petreczky (CNRS Lille) ; Mohamed Amine Issami (Groupe ISCAE Maroc) ; Mohamed Ben Amar (FSEG Sfax) ; Mohamed Frikha (FSEG Tunis) ; Montej Abida (ESC Sfax) ; Mouna Abbes (FSEG Sfax) ; Mounir Smida (FSEG Sousse) ; Nabil Jedldane (Université Abdelmalek Essaâdi, Maroc) ; Nadia Abaoub (ESC Tunis) ; Nahed Zghidi (ESC Sfax) ; Nathalie Hilmi (Centre Scientifique de Monaco, France) ; Niazi Kammoun (IHEC Sfax) ; Nouri Chtourou (FSEG Sfax) ; Rim Hadiji (FSEG Sfax) ; Romdhane Khemakhem (FSEG Sfax) ; Salah Ben Hamed (FSEG Tunis) ; Salma Haj Khlifa (ISCAE Maroc) ; Salma Hichri (FSEG Sfax) ; Sami Aouadi (FSEG Tunis) ; Sami Ben Mim (IHEC Sousse) ; Sami Boudabbous (FSEG Sfax) ; Sami Hammami (FSEG Sfax) ; Siham Meknassi (Groupe ISCAE Maroc) ; Siwar Ellouz (ESC Sfax) ; Slaheddine Hellara (ISG Tunis) ; Slim Kallel (FSEG Sfax) ; Sonda Weli (FSEG Sfax) ; Sonia Zouari (ISAA Sfax) ; Souhir Abbes (FSEG Sfax) ; Srdjan Redzpagic (UCA, France) ; Tarik Elmalki (Groupe ISCAE Maroc) ; Tarik Saadi (ISCAE Maroc) ; Taicir Loukil (FSEG Sfax) ; Thierry Baudasse (Université d'Orléans, France) ; Younes Boujelbene (FSEG Sfax) ; Zouheir Abida (FSEG Sfax)`;
 
 const Index = () => {
   const { t } = useLanguage();
 
-  const topics = [
-    "Climate change: measurements, modelling, and predictions",
-    "Sustainable finance",
-    "Sustainable development goals",
-    "Environmental, Social, and Governance (ESG) factors",
-    "Corporate Social Responsibility (CSR) strategy",
-    "Sustainability, regulation and risks",
-    "Fintech, digitalisation, technology and Sustainability",
-    "Artificial intelligence, blockchain, technology and sustainability",
-    "Sustainable accounting",
-    "Ethics in finance, islamic finance"
+  const topics = t('topics.list');
+  const partnerLogos = [
+    "/lovable-uploads/5f60ebc6-a997-4571-95dc-f818be241ab5.png",
+    "/lovable-uploads/55d7b386-c0a5-4d8d-9244-35f3e4a515d8.png",
+    "/lovable-uploads/6c2f4035-8bd6-42e3-b6d1-19d90377153b.png",
   ];
 
-  const partnerLogos = [
-    "/lovable-uploads/5f60ebc6-a997-4571-95dc-f818be241ab5.png", // FSEG Sfax
-    "/lovable-uploads/55d7b386-c0a5-4d8d-9244-35f3e4a515d8.png", // AFN
-    "/lovable-uploads/6c2f4035-8bd6-42e3-b6d1-19d90377153b.png", // University of Sfax
-  ];
+  // ... keep existing code (hero section, honorary guest section, topics section, partners section)
 
   return (
     <div className="min-h-screen">
@@ -75,7 +90,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-8">{t('topics.title')}</h2>
           <ul className="max-w-3xl mx-auto space-y-4">
-            {topics.map((topic, index) => (
+            {Array.isArray(topics) && topics.map((topic, index) => (
               <li key={index} className="flex items-start">
                 <span className="text-primary mr-2">•</span>
                 <span>{topic}</span>
@@ -181,8 +196,7 @@ const Index = () => {
           <h2 className="text-3xl font-bold text-center mb-8">{t('scientific.title')}</h2>
           <div className="prose prose-lg mx-auto">
             <p className="text-gray-600">
-              Abdelfatteh Bouri (FSEG Sfax) ; Abderrazak Ellouze (ESC Tunis) ; Azzelarab Zaoudi Mouagni (ISCAE Maroc) ...
-              {/* Add all scientific committee members */}
+              {scientificCommittee}
             </p>
           </div>
         </div>
