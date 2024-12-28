@@ -1,5 +1,8 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Navbar } from "@/components/Navbar";
+import { OrganizersSection } from "@/components/sections/OrganizersSection";
+import { AboutSection } from "@/components/sections/AboutSection";
+import { TopicsSection } from "@/components/sections/TopicsSection";
 import { Card } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
@@ -32,15 +35,6 @@ const scientificCommittee = `Abdelfatteh Bouri (FSEG Sfax) ; Abderrazak Ellouze 
 const Index = () => {
   const { t } = useLanguage();
 
-  const topics = t('topics.list');
-  const partnerLogos = [
-    "/lovable-uploads/5f60ebc6-a997-4571-95dc-f818be241ab5.png",
-    "/lovable-uploads/55d7b386-c0a5-4d8d-9244-35f3e4a515d8.png",
-    "/lovable-uploads/6c2f4035-8bd6-42e3-b6d1-19d90377153b.png",
-  ];
-
-  // ... keep existing code (hero section, honorary guest section, topics section, partners section)
-
   return (
     <div className="min-h-screen">
       <Navbar />
@@ -66,6 +60,8 @@ const Index = () => {
         </div>
       </section>
 
+      <OrganizersSection />
+
       {/* Honorary Guest Section */}
       <section className="section-padding bg-white">
         <div className="max-w-7xl mx-auto">
@@ -85,51 +81,8 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Topics Section */}
-      <section className="section-padding bg-gray-50">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-8">{t('topics.title')}</h2>
-          <ul className="max-w-3xl mx-auto space-y-4">
-            {Array.isArray(topics) && topics.map((topic, index) => (
-              <li key={index} className="flex items-start">
-                <span className="text-primary mr-2">•</span>
-                <span>{topic}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
-
-      {/* Partners Section */}
-      <section className="section-padding bg-white">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12">Partners</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center">
-            {partnerLogos.map((logo, index) => (
-              <img 
-                key={index}
-                src={logo}
-                alt="Partner logo"
-                className="max-h-24 w-auto object-contain"
-              />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Schedule Section */}
-      <section id="schedule" className="section-padding bg-white">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-8">{t('schedule.title')}</h2>
-          <div className="aspect-[16/9] w-full">
-            <iframe 
-              src="https://drive.google.com/file/d/YOUR_FILE_ID/preview"
-              className="w-full h-full rounded-lg shadow-lg"
-              allow="autoplay"
-            ></iframe>
-          </div>
-        </div>
-      </section>
+      <AboutSection />
+      <TopicsSection />
 
       {/* Deadlines Section */}
       <section className="section-padding bg-gray-50">
