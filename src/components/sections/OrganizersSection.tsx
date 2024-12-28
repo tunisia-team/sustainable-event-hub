@@ -3,17 +3,17 @@ import { useLanguage } from "@/contexts/LanguageContext";
 export const OrganizersSection = () => {
   const organizerLogos = [
     {
-      src: "/lovable-uploads/2a05f648-4993-4f8f-a5ec-84743d4b8b1c.png",
+      src: "/lovable-uploads/6f010426-1498-4ad8-a001-ff047f276a33.png",
       alt: "FSEGSFAX Logo",
       width: 150
     },
     {
-      src: "/lovable-uploads/2a05f648-4993-4f8f-a5ec-84743d4b8b1c.png",
+      src: "/lovable-uploads/f9b7225e-455a-4646-af2a-e5dc7209d25e.png",
       alt: "AFN Logo",
       width: 150
     },
     {
-      src: "/lovable-uploads/2a05f648-4993-4f8f-a5ec-84743d4b8b1c.png",
+      src: "/lovable-uploads/b8316ab8-e4cd-49ea-a9ef-44daaf67288e.png",
       alt: "University of Sfax Logo",
       width: 150
     }
@@ -22,7 +22,8 @@ export const OrganizersSection = () => {
   return (
     <section className="section-padding bg-white">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-3 gap-8 items-center justify-items-center">
+        <h2 className="text-3xl font-bold text-center mb-8">Organizers</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center justify-items-center">
           {organizerLogos.map((logo, index) => (
             <img 
               key={index}
