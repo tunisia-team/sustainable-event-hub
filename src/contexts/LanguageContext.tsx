@@ -2,13 +2,22 @@ import React, { createContext, useContext, useState } from 'react';
 
 type Language = 'en' | 'fr';
 
+interface TranslationType {
+  [key: string]: string | string[];
+}
+
+interface Translations {
+  en: TranslationType;
+  fr: TranslationType;
+}
+
 interface LanguageContextType {
   language: Language;
   setLanguage: (lang: Language) => void;
   t: (key: string) => string | string[];
 }
 
-const translations = {
+const translations: Translations = {
   en: {
     'event.title': 'Sustainable Finance 2024',
     'event.subtitle': 'The second Sustainable Finance meeting',
@@ -35,21 +44,6 @@ const translations = {
       'Sustainable accounting',
       'Ethics in finance, islamic finance'
     ],
-    'deadlines.title': 'Important Deadlines',
-    'deadlines.submission': 'Submission of Communications',
-    'deadlines.decision': 'Final Decision',
-    'deadlines.confirmation': 'Confirmation of participation of accepted communications',
-    'submission.title': 'Guidelines Submissions',
-    'submission.format': 'All submissions must be in Word Format (doc, docx)',
-    'submission.platform': 'Abstracts and articles can only be submitted online via the following website:',
-    'fees.title': 'Participation fees',
-    'fees.amount': '220 DT (100 €)',
-    'fees.details': 'These fees cover access to sessions, documentation, 4 coffee breaks and 2 lunches.',
-    'fees.accommodation': 'Possibility of booking your accommodation in a hotel approved by the FSEG Sfax',
-    'committee.title': 'Committee members',
-    'scientific.title': 'Scientific Committee',
-    'contact.title': 'Contact',
-    'contact.email': 'Contact us at: sana.ben.abdallah@fsegs.usf.tn',
     'nav.about': 'About',
     'nav.schedule': 'Schedule',
     'nav.speakers': 'Speakers',
@@ -77,7 +71,7 @@ const translations = {
     'topics.title': "Sujets d'Intérêt",
     'topics.list': [
       'Finance durable et ses méthodologies',
-      "Mesure d'impact ESG en Afrique",
+      'Mesure d\'impact ESG en Afrique',
       'Réglementations et standards ESG',
       'Financement de la transition écologique et énergétique',
       'Synergie entre transition écologique et numérique',
@@ -123,7 +117,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [language, setLanguage] = useState<Language>('fr');
 
   const t = (key: string): string | string[] => {
-    return translations[language][key as keyof typeof translations.en] || key;
+    return translations[language][key] || key;
   };
 
   return (
