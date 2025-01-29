@@ -53,7 +53,7 @@ const translations = {
     'nav.about': 'About',
     'nav.schedule': 'Schedule',
     'nav.speakers': 'Speakers',
-    'nav.partners': 'Partners',
+    'nav.partners': 'Partners'
   },
   fr: {
     'event.title': 'Finance à Impact en Afrique',
@@ -112,7 +112,7 @@ const translations = {
       'Coordonnées (adresse e-mail, laboratoire, institution de rattachement)'
     ],
     'fees.title': "Frais d'Inscription",
-    'fees.info': 'Les informations relatives aux frais de participation, le cas échéant, seront publiées sur le site de l'événement.',
+    'fees.info': "Les informations relatives aux frais de participation, le cas échéant, seront publiées sur le site de l'événement.",
     'contact.info': 'Pour toute question ou information complémentaire, veuillez contacter : [insérer les coordonnées].'
   }
 };
