@@ -56,57 +56,71 @@ const translations = {
     'nav.partners': 'Partners',
   },
   fr: {
-    'event.title': 'Finance Durable 2024',
-    'event.subtitle': 'Les deuxièmes rencontres de la Finance durable',
-    'event.date': '10-11 mai 2024',
-    'event.location': 'FSEG Sfax - Tunisie',
-    'event.callForPapers': 'Appel à communications',
-    'event.subtitle2': 'Risques climatiques en Afrique',
-    'event.honorary': 'Invité d\'honneur',
-    'event.guest.name': 'Christian de Boissieu',
-    'event.guest.title': 'Professeur émérite à l\'Université Paris-I Panthéon-Sorbonne, vice-président du Cercle des économistes, membre de l\'Académie des technologies et de l\'Académie royale de Belgique et ex-président du Conseil d\'analyse économique.',
-    'about.challenge': 'Les défis de la transition écologique et des risques climatiques nécessitent l\'implication de toutes les parties prenantes et une stratégie combinée d\'au moins cinq acteurs : universités, entreprises, institutions financières, États et Institutions de gouvernance multilatérale. Cette transition est à la fois une opportunité de croissance économique et un devoir de conformité et de gestion des risques. Certains acteurs comprennent également l\'intérêt de la numérisation et de l\'intelligence artificielle pour développer des stratégies de développement durable rigoureuses basées sur une métrique. Mais il est indéniable qu\'il reste encore un long chemin à parcourir pour assurer un avenir plus serein aux générations futures.',
-    'purpose.title': 'OBJECTIF',
-    'purpose.description': 'Ces journées scientifiques proposent une réflexion sur le thème de la Finance Durable/RSE/ESG/ISR. Son objectif global est de sensibiliser les parties prenantes – académiques et professionnels – à la nécessité de mettre en œuvre des stratégies responsables au sein des entreprises nord-africaines et africaines basées sur des outils innovants de mesure d\'impact ESG. Cette approche est nécessaire pour faire face aux risques du changement climatique sur le continent africain.',
-    'topics.title': 'Sujets d\'intérêt',
-    'topics.list': [
-      'Changement climatique : mesures, modélisation et prévisions',
-      'Finance durable',
-      'Objectifs de développement durable',
-      'Facteurs environnementaux, sociaux et de gouvernance (ESG)',
-      'Stratégie de responsabilité sociétale des entreprises (RSE)',
-      'Durabilité, réglementation et risques',
-      'Fintech, numérisation, technologie et durabilité',
-      'Intelligence artificielle, blockchain, technologie et durabilité',
-      'Comptabilité durable',
-      'Éthique en finance, finance islamique'
+    'event.title': 'Finance à Impact en Afrique',
+    'event.subtitle': 'Troisièmes Rencontres de la Finance Durable',
+    'event.date': '13 mai 2025',
+    'event.location': 'ISCAE-Casablanca, Maroc',
+    'event.callForPapers': 'Appel à Communications',
+    'about.context': "L'African Finance Network (AFN) est une organisation non gouvernementale à but non lucratif qui vise à connecter les universités, les chercheurs et les professionnels autour du développement de l'Afrique. La mission principale de l'AFN est de favoriser une réflexion prospective sur les défis et opportunités de l'émergence africaine.",
+    'about.journal': "En appui à ces efforts, l'AFN publie la revue scientifique African Finance for Development Review (AFDR) (à consulter sur https://africanfinance.network/revue/), spécialisée dans les thématiques de la finance durable.",
+    'about.history': "Depuis 2023, les « Rencontres de la Finance Durable » ont établi un cadre de référence pour discuter des enjeux majeurs liés à la finance durable en Afrique. La première édition, tenue à Rabat, a marqué le lancement officiel de l'Observatoire Africain de la Finance Durable (OAFD) avec le soutien d'institutions prestigieuses et de représentants gouvernementaux. L'édition 2024, organisée à Sfax, a porté sur les risques climatiques et a rassemblé plus de 40 conférenciers internationaux et africains.",
+    'about.current': "La troisième édition, prévue pour le 13 mai 2025 à Casablanca, poursuivra cet élan en explorant les enjeux et opportunités liés à la finance à impact en Afrique, avec un accent sur les études de cas pratiques, la recherche scientifique et les initiatives institutionnelles favorisant l'économie durable.",
+    'objectives.title': 'Objectifs de la Conférence',
+    'objectives.list': [
+      'Promouvoir la finance durable comme un levier stratégique pour le développement économique et environnemental en Afrique.',
+      'Sensibiliser les chercheurs, praticiens et décideurs aux méthodes innovantes de mesure d\'impact ESG (Environnement, Société, Gouvernance).',
+      'Offrir une plateforme d\'échanges sur les régulations, incitations et solutions adaptées aux besoins des entreprises et institutions africaines.',
+      'Mettre en avant les technologies émergentes et leur rôle dans la transformation durable des économies africaines.'
     ],
-    'deadlines.title': 'Dates limites importantes',
-    'deadlines.submission': 'Soumission des communications',
-    'deadlines.decision': 'Décision finale',
-    'deadlines.confirmation': 'Confirmation de la participation des communications acceptées',
-    'submission.title': 'Directives de soumission',
-    'submission.format': 'Toutes les soumissions doivent être au format Word (doc, docx)',
-    'submission.platform': 'Les résumés et articles ne peuvent être soumis en ligne que via le site suivant :',
-    'fees.title': 'Frais de participation',
-    'fees.amount': '220 DT (100 €)',
-    'fees.details': 'Ces frais couvrent l\'accès aux sessions, la documentation, 4 pauses café et 2 déjeuners.',
-    'fees.accommodation': 'Possibilité de réserver votre hébergement dans un hôtel approuvé par la FSEG Sfax',
-    'committee.title': 'Membres du comité',
-    'scientific.title': 'Comité scientifique',
-    'contact.title': 'Contact',
-    'contact.email': 'Contactez-nous à : sana.ben.abdallah@fsegs.usf.tn',
-    'nav.about': 'À propos',
-    'nav.schedule': 'Programme',
-    'nav.speakers': 'Intervenants',
-    'nav.partners': 'Partenaires',
+    'panel.title': "Panel d'expertise",
+    'panel.1': "Panel 1 : Mesure d'Impact ESG en Afrique, mettant en avant le dispositif Bank of Africa/OAFD : Discussions sur les obligations vertes, les fonds d'investissement à impact social et la digitalisation au service de la durabilité.",
+    'topics.title': "Sujets d'Intérêt",
+    'topics.list': [
+      'Finance durable et ses méthodologies',
+      "Mesure d'impact ESG en Afrique",
+      'Réglementations et standards ESG',
+      'Financement de la transition écologique et énergétique',
+      'Synergie entre transition écologique et numérique',
+      'Mécanismes de compensation (principe « Pollueur-Payeur »)',
+      'Pratiques et innovations en Responsabilité Sociétale des Entreprises (RSE)',
+      'Fintech, blockchain et intelligence artificielle pour une finance durable',
+      'Gestion des risques liés à la durabilité'
+    ],
+    'deadlines.title': 'Calendrier',
+    'deadlines.launch': "Lancement de l'appel",
+    'deadlines.launch.date': 'Janvier 2025',
+    'deadlines.close': "Clôture de l'appel",
+    'deadlines.close.date': '[à déterminer]',
+    'deadlines.response': 'Réponse aux soumissions',
+    'deadlines.response.date': '[à déterminer]',
+    'deadlines.conference': 'Date de la conférence',
+    'deadlines.conference.date': '13 mai 2025',
+    'submission.title': 'Directives de Soumission',
+    'submission.criteria': 'Les chercheurs souhaitant soumettre une communication doivent respecter les critères suivants :',
+    'submission.format': 'Les propositions doivent être rédigées en format Word (.doc, .docx).',
+    'submission.length': "Le texte ne doit pas excéder 3 000 caractères, incluant :",
+    'submission.requirements': [
+      'Un titre provisoire',
+      'Un résumé de la proposition',
+      'Une bibliographie succincte',
+      'Cinq mots-clés'
+    ],
+    'submission.info': 'Les informations suivantes doivent être complétées dans le formulaire de dépôt :',
+    'submission.author.info': [
+      'Noms des auteurs',
+      'Affiliations universitaires ou professionnelles',
+      'Coordonnées (adresse e-mail, laboratoire, institution de rattachement)'
+    ],
+    'fees.title': "Frais d'Inscription",
+    'fees.info': 'Les informations relatives aux frais de participation, le cas échéant, seront publiées sur le site de l'événement.',
+    'contact.info': 'Pour toute question ou information complémentaire, veuillez contacter : [insérer les coordonnées].'
   }
 };
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguage] = useState<Language>('en');
+  const [language, setLanguage] = useState<Language>('fr');
 
   const t = (key: string): string | string[] => {
     return translations[language][key as keyof typeof translations.en] || key;
