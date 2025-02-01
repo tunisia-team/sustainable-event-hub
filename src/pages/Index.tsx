@@ -53,10 +53,6 @@ const Index = () => {
               </li>
             ))}
           </ul>
-          <div className="max-w-3xl mx-auto mt-8">
-            <h3 className="text-xl font-semibold mb-4">{t('panel.title')}</h3>
-            <p className="text-gray-600">{t('panel.1')}</p>
-          </div>
         </div>
       </section>
 
