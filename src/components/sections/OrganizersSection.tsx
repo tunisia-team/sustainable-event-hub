@@ -4,7 +4,7 @@ export const OrganizersSection = () => {
   const { t } = useLanguage();
   const organizerLogos = [
     {
-      src: "/lovable-uploads/71c0b9d8-230c-460c-9560-ecc0952c48b6.png",
+      src: "/lovable-uploads/55d7b386-c0a5-4d8d-9244-35f3e4a515d8.png",
       alt: "AFN Logo",
       width: 150
     },
