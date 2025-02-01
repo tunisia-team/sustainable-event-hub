@@ -14,11 +14,10 @@ export function Navbar() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <img 
-              src="/lovable-uploads/5f60ebc6-a997-4571-95dc-f818be241ab5.png"
-              alt="FSEG Sfax"
-              className="h-8 w-auto"
+              src="/lovable-uploads/a7f50ef2-0605-457b-88d8-3ffc3180cb53.png"
+              alt="ISCAE"
+              className="h-12 w-auto"
             />
-            <span className="text-xl font-semibold text-primary ml-2">SF2024</span>
           </div>
           
           {/* Mobile menu button */}
@@ -37,16 +36,16 @@ export function Navbar() {
           {/* Desktop menu */}
           <div className="hidden md:flex items-center space-x-8">
             <Button variant="ghost" asChild>
-              <a href="#about">{t('nav.about')}</a>
+              <a href="#about">À propos</a>
             </Button>
             <Button variant="ghost" asChild>
-              <a href="#schedule">{t('nav.schedule')}</a>
+              <a href="#schedule">Programme</a>
             </Button>
             <Button variant="ghost" asChild>
-              <a href="#speakers">{t('nav.speakers')}</a>
+              <a href="#speakers">Intervenants</a>
             </Button>
             <Button variant="ghost" asChild>
-              <a href="#partners">{t('nav.partners')}</a>
+              <a href="#partners">Partenaires</a>
             </Button>
             <LanguageSwitch />
           </div>
@@ -57,16 +56,16 @@ export function Navbar() {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               <Button variant="ghost" className="w-full justify-start" asChild>
-                <a href="#about">{t('nav.about')}</a>
+                <a href="#about">À propos</a>
               </Button>
               <Button variant="ghost" className="w-full justify-start" asChild>
-                <a href="#schedule">{t('nav.schedule')}</a>
+                <a href="#schedule">Programme</a>
               </Button>
               <Button variant="ghost" className="w-full justify-start" asChild>
-                <a href="#speakers">{t('nav.speakers')}</a>
+                <a href="#speakers">Intervenants</a>
               </Button>
               <Button variant="ghost" className="w-full justify-start" asChild>
-                <a href="#partners">{t('nav.partners')}</a>
+                <a href="#partners">Partenaires</a>
               </Button>
             </div>
           </div>

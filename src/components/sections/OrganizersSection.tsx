@@ -4,18 +4,13 @@ export const OrganizersSection = () => {
   const { t } = useLanguage();
   const organizerLogos = [
     {
-      src: "/lovable-uploads/6f010426-1498-4ad8-a001-ff047f276a33.png",
-      alt: "FSEGSFAX Logo",
+      src: "/lovable-uploads/a7f50ef2-0605-457b-88d8-3ffc3180cb53.png",
+      alt: "ISCAE Logo",
       width: 150
     },
     {
-      src: "/lovable-uploads/f9b7225e-455a-4646-af2a-e5dc7209d25e.png",
-      alt: "AFN Logo",
-      width: 150
-    },
-    {
-      src: "/lovable-uploads/b8316ab8-e4cd-49ea-a9ef-44daaf67288e.png",
-      alt: "University of Sfax Logo",
+      src: "/lovable-uploads/71c0b9d8-230c-460c-9560-ecc0952c48b6.png",
+      alt: "ASFO Logo",
       width: 150
     }
   ];
@@ -24,7 +19,7 @@ export const OrganizersSection = () => {
     <section className="section-padding bg-white">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-8">{t('organizers.title')}</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-items-center">
           {organizerLogos.map((logo, index) => (
             <img 
               key={index}
@@ -36,15 +31,7 @@ export const OrganizersSection = () => {
         </div>
         <div className="mt-8 text-center">
           <p className="text-lg">
-            {t('organizers.participation')}{" "}
-            <a 
-              href="https://publika.skema.edu/fr/extra/observatoire-internationale-de-la-finance-durable/"
-              className="text-primary hover:underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              SKEMA Business School
-            </a>
+            {t('organizers.participation')}
           </p>
         </div>
       </div>

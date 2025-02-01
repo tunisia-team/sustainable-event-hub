@@ -1,7 +1,8 @@
 export const translations = {
   en: {
     'event.title': 'Third Sustainable Finance Meeting',
-    'event.callForPapers': 'Theme: Impact Finance in Africa',
+    'event.callForPapers': 'Call for Papers',
+    'event.subtitle': 'Theme: Impact Finance in Africa',
     'event.date': 'May 13, 2025',
     'event.location': 'ISCAE-Casablanca, Morocco',
     'event.theme': 'Impact Finance in Africa',
@@ -65,7 +66,8 @@ export const translations = {
   },
   fr: {
     'event.title': 'Troisièmes Rencontres de la Finance Durable',
-    'event.callForPapers': 'Thème : Finance à Impact en Afrique',
+    'event.callForPapers': 'Appel à Communications',
+    'event.subtitle': 'Thème : Finance à Impact en Afrique',
     'event.date': '13 mai 2025',
     'event.location': 'ISCAE-Casablanca, Maroc',
     'event.theme': 'Finance à Impact en Afrique',
