@@ -6,6 +6,10 @@ export const translations = {
     'event.date': 'May 13, 2025',
     'event.location': 'ISCAE-Casablanca, Morocco',
     'event.theme': 'Impact Finance in Africa',
+    'nav.about': 'About',
+    'nav.schedule': 'Schedule',
+    'nav.speakers': 'Speakers',
+    'nav.partners': 'Partners',
     'about.context': 'The African Finance Network (AFN) is a non-profit, non-governmental organization that aims to connect universities, researchers, and professionals around African development. The main mission of AFN is to foster forward-thinking reflection on the challenges and opportunities of African emergence.',
     'about.journal': 'In support of these efforts, AFN publishes the scientific journal African Finance for Development Review (AFDR) (available at https://africanfinance.network/revue/), specialized in sustainable finance themes.',
     'about.history': 'Since 2023, the "Sustainable Finance Meetings" have established a reference framework for discussing major issues related to sustainable finance in Africa. The first edition, held in Rabat, marked the official launch of the African Observatory for Sustainable Finance (AOSF) with the support of prestigious institutions and government representatives. The 2024 edition, organized in Sfax, focused on climate risks and brought together more than 40 international and African speakers.',
@@ -59,10 +63,6 @@ export const translations = {
     'contact.info': 'For any questions or additional information, please contact: [insert contact details].',
     'organizers.title': 'Organizers',
     'organizers.participation': 'With the participation of the International Observatory of Sustainable Finance',
-    'nav.about': 'About',
-    'nav.schedule': 'Schedule',
-    'nav.speakers': 'Speakers',
-    'nav.partners': 'Partners'
   },
   fr: {
     'event.title': 'Troisièmes Rencontres de la Finance Durable',
@@ -71,6 +71,10 @@ export const translations = {
     'event.date': '13 mai 2025',
     'event.location': 'ISCAE-Casablanca, Maroc',
     'event.theme': 'Finance à Impact en Afrique',
+    'nav.about': 'À propos',
+    'nav.schedule': 'Programme',
+    'nav.speakers': 'Intervenants',
+    'nav.partners': 'Partenaires',
     'about.context': "L'African Finance Network (AFN) est une organisation non gouvernementale à but non lucratif qui vise à connecter les universités, les chercheurs et les professionnels autour du développement de l'Afrique. La mission principale de l'AFN est de favoriser une réflexion prospective sur les défis et opportunités de l'émergence africaine.",
     'about.journal': "En appui à ces efforts, l'AFN publie la revue scientifique African Finance for Development Review (AFDR) (à consulter sur https://africanfinance.network/revue/), spécialisée dans les thématiques de la finance durable.",
     'about.history': "Depuis 2023, les « Rencontres de la Finance Durable » ont établi un cadre de référence pour discuter des enjeux majeurs liés à la finance durable en Afrique. La première édition, tenue à Rabat, a marqué le lancement officiel de l'Observatoire Africain de la Finance Durable (OAFD) avec le soutien d'institutions prestigieuses et de représentants gouvernementaux. L'édition 2024, organisée à Sfax, a porté sur les risques climatiques et a rassemblé plus de 40 conférenciers internationaux et africains.",
@@ -124,10 +128,6 @@ export const translations = {
     'contact.info': 'Pour toute question ou information complémentaire, veuillez contacter : [insérer les coordonnées].',
     'organizers.title': 'Organisateurs',
     'organizers.participation': "Avec la participation de l'Observatoire International de la Finance Durable",
-    'nav.about': 'À propos',
-    'nav.schedule': 'Programme',
-    'nav.speakers': 'Intervenants',
-    'nav.partners': 'Partenaires'
   }
 };
 
