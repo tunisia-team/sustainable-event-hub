@@ -14,7 +14,7 @@ export const OrganizersSection = () => {
       width: 150
     },
     {
-      src: "/lovable-uploads/Epitome_ Advisory.png",
+      src: "/lovable-uploads/Epitome_Advisory.png",
       alt: "Epitome Advisory Logo",
       width: 150
     },
