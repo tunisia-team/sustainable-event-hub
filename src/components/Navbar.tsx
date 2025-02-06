@@ -16,7 +16,7 @@ export function Navbar() {
             <img 
               src="/lovable-uploads/ISCAE.jpg"
               alt="ISCAE"
-              className="h-12 w-auto"
+              className="h-24 w-auto"
             />
           </div>
           
