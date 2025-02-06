@@ -9,7 +9,12 @@ export const OrganizersSection = () => {
       width: 150
     },
     {
-      src: "/lovable-uploads/6f010426-1498-4ad8-a001-ff047f276a33.png",
+      src: "/lovable-uploads/ISCAE.jpg",
+      alt: "ISCAE Logo",
+      width: 150
+    },
+    {
+      src: "/lovable-uploads/Epitome_ Advisory.png",
       alt: "Epitome Advisory Logo",
       width: 150
     },
@@ -23,8 +28,8 @@ export const OrganizersSection = () => {
   return (
     <section className="section-padding bg-white">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-8">{t('organizers.title')}</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center justify-items-center">
+        <h2 className="text-4xl font-bold text-center mb-8">{t('organizers.title')}</h2>
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-center justify-items-center">
           {organizerLogos.map((logo, index) => (
             <img 
               key={index}
