@@ -14,7 +14,7 @@ export function Navbar() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <img 
-              src="/lovable-uploads/a7f50ef2-0605-457b-88d8-3ffc3180cb53.png"
+              src="/lovable-uploads/ISCAE.jpg"
               alt="ISCAE"
               className="h-12 w-auto"
             />
