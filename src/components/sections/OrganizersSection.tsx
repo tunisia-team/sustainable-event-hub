@@ -9,8 +9,8 @@ export const OrganizersSection = () => {
       width: 150
     },
     {
-      src: "/lovable-uploads/1110df7d-8ae0-4ec0-862b-aa6f36c9a2bd.png",
-      alt: "ISCAE Logo",
+      src: "/lovable-uploads/6f010426-1498-4ad8-a001-ff047f276a33.png",
+      alt: "Epitome Advisory Logo",
       width: 150
     },
     {
