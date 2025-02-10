@@ -15,13 +15,18 @@ export const OrganizersSection = () => {
       width: 150
     },
     {
+      src: "/lovable-uploads/4b903c46-9279-4388-8f39-f25d0f581a6e.png",
+      alt: "ASFO Logo",
+      width: 150
+    },
+    {
       src: "/lovable-uploads/Epitome_Advisory.png",
       alt: "Epitome Advisory Logo",
       width: 150
     },
     {
-      src: "/lovable-uploads/4b903c46-9279-4388-8f39-f25d0f581a6e.png",
-      alt: "ASFO Logo",
+      src: "/lovable-uploads/Chaire_logo.png",
+      alt: "Chaire Logo",
       width: 150
     }
   ];
