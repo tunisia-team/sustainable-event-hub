@@ -47,8 +47,8 @@ export const OrganizersSection = () => {
               />
             ))}
           </div>
-          {/* Second row - 2 logos */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-items-center md:px-[25%]">
+          {/* Second row - 4 logos */}
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-center justify-items-center">
             {organizerLogos.slice(3).map((logo, index) => (
               <img 
                 key={index}
