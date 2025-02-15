@@ -20,15 +20,26 @@ export const OrganizersSection = () => {
       width: 150
     },
     {
+      src: "/lovable-uploads/Chaire_logo.png",
+      alt: "Chaire Logo",
+      width: 150
+    },
+    {
       src: "/lovable-uploads/Epitome_Advisory.png",
       alt: "Epitome Advisory Logo",
       width: 150
     },
     {
-      src: "/lovable-uploads/Chaire_logo.png",
-      alt: "Chaire Logo",
+      src: "/lovable-uploads/boa_logo.png",
+      alt: "Bank of Africa Logo",
+      width: 150
+    },
+    {
+      src: "/lovable-uploads/FSEG_Sfax.png",
+      alt: "FSEG Sfax Logo",
       width: 150
     }
+    
   ];
 
   return (
