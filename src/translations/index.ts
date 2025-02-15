@@ -125,7 +125,7 @@ export const translations = {
     ],
     'fees.title': "Frais d'Inscription",
     'fees.info': "Les informations relatives aux frais de participation, le cas échéant, seront publiées sur le site de l'événement.",
-    'contact.info': 'Pour toute question ou information complémentaire, veuillez contacter : [insérer les coordonnées].',
+    'contact.info': 'Pour toute question ou information complémentaire, veuillez contacter : aissami@groupeiscae.ma ou sana.ben.abdallah@fsegs.usf.tn',
     'organizers.title': 'Organisateurs',
     'organizers.participation': "Avec la participation de l'Observatoire International de la Finance Durable",
   }
