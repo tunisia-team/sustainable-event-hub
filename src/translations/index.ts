@@ -61,7 +61,7 @@ export const translations = {
     ],
     'fees.title': 'Registration Fees',
     'fees.info': 'Information regarding participation fees will be published on the event website.',
-    'contact.info': 'For any questions or additional information, please contact: [insert contact details].',
+    'contact.info': 'For any questions or additional information, please contact: financedurable2025@groupeiscae.ma',
     'organizers.title': 'Organizers',
     'organizers.participation': 'With the participation of the International Observatory of Sustainable Finance',
   },
