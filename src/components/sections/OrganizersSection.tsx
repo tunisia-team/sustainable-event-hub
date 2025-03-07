@@ -30,13 +30,13 @@ export const OrganizersSection = () => {
       width: 150
     },
     {
-      src: "/lovable-uploads/boa_logo.png",
-      alt: "Bank of Africa Logo",
+      src: "/lovable-uploads/5b714123-f4be-48be-b232-d077dd165e13.png",
+      alt: "Centre National pour la Recherche Scientifique et Technique Logo",
       width: 150
     },
     {
-      src: "/lovable-uploads/5b714123-f4be-48be-b232-d077dd165e13.png",
-      alt: "Centre National pour la Recherche Scientifique et Technique Logo",
+      src: "/lovable-uploads/boa_logo.png",
+      alt: "Bank of Africa Logo",
       width: 150
     },
     {
