@@ -38,8 +38,12 @@ export const OrganizersSection = () => {
       src: "/lovable-uploads/FSEG_Sfax.png",
       alt: "FSEG Sfax Logo",
       width: 150
+    },
+    {
+      src: "/lovable-uploads/5b714123-f4be-48be-b232-d077dd165e13.png",
+      alt: "Centre National pour la Recherche Scientifique et Technique Logo",
+      width: 150
     }
-    
   ];
 
   return (
@@ -58,9 +62,9 @@ export const OrganizersSection = () => {
               />
             ))}
           </div>
-          {/* Second row - 4 logos */}
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-center justify-items-center">
-            {organizerLogos.slice(3).map((logo, index) => (
+          {/* Second row - 5 logos */}
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-8 items-center justify-items-center">
+            {organizerLogos.slice(3, 8).map((logo, index) => (
               <img 
                 key={index}
                 src={logo.src}
