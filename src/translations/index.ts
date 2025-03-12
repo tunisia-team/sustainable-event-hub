@@ -45,7 +45,7 @@ export const translations = {
     'deadlines.conference.date': 'May 13, 2025',
     'submission.title': 'Submission Guidelines',
     'submission.criteria': 'Researchers wishing to submit a paper must respect the following criteria:',
-    'submission.format': 'Proposals must be written in Word format (.doc, .docx)',
+    'submission.format': 'Proposals must be written in Word format (.doc, .docx) and must be submitted exclusively online to the following email address: financedurable2025@groupeiscae.ma',
     'submission.length': 'The text must not exceed 3,000 characters, including:',
     'submission.requirements': [
       'A provisional title',
@@ -58,9 +58,7 @@ export const translations = {
       'Author names',
       'Academic or professional affiliations',
       'Contact details (email, laboratory, affiliated institution)'
-    ],
-    'submission.adress': [  
-      'Communications must be submitted exclusively online to the following email address: financedurable2025@groupeiscae.ma'
+    
     ],
     'fees.title': 'Registration Fees',
     'fees.info': 'Information regarding participation fees will be published on the event website.',
@@ -113,7 +111,7 @@ export const translations = {
     'deadlines.conference.date': '13 mai 2025',
     'submission.title': 'Directives de Soumission',
     'submission.criteria': 'Les chercheurs souhaitant soumettre une communication doivent respecter les critères suivants :',
-    'submission.format': 'Les propositions doivent être rédigées en format Word (.doc, .docx)',
+    'submission.format': 'Les propositions doivent être rédigées en format Word (.doc, .docx) et doivent être soumises exclusivement en ligne à l'adresse email suivante: financedurable2025@groupeiscae.ma',
     'submission.length': 'Le texte ne doit pas excéder 3 000 caractères, incluant :',
     'submission.requirements': [
       'Un titre provisoire',
@@ -126,11 +124,7 @@ export const translations = {
       'Noms des auteurs',
       'Affiliations universitaires ou professionnelles',
       'Coordonnées (adresse e-mail, laboratoire, institution de rattachement)'
-    ],
-
-  
-    'submission.adresse': [  
-      'Les communications doivent être soumises exclusivement en ligne à l'adresse email suivante: financedurable2025@groupeiscae.ma'
+      
    ],  
     'fees.title': "Frais d'Inscription",
     'fees.info': "Les informations relatives aux frais de participation, le cas échéant, seront publiées sur le site de l'événement.",
