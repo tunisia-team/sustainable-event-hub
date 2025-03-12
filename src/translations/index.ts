@@ -59,6 +59,9 @@ export const translations = {
       'Academic or professional affiliations',
       'Contact details (email, laboratory, affiliated institution)'
     ],
+    'submission.requirements': [  
+      'Communications must be submitted exclusively online to the following email address: financedurable2025@groupeiscae.ma'
+    ],
     'fees.title': 'Registration Fees',
     'fees.info': 'Information regarding participation fees will be published on the event website.',
     'contact.info': 'For any questions or additional information, please contact: financedurable2025@groupeiscae.ma',
