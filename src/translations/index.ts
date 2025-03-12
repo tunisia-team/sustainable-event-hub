@@ -59,7 +59,7 @@ export const translations = {
       'Academic or professional affiliations',
       'Contact details (email, laboratory, affiliated institution)'
     ],
-    'submission.requirements': [  
+    'submission.adress': [  
       'Communications must be submitted exclusively online to the following email address: financedurable2025@groupeiscae.ma'
     ],
     'fees.title': 'Registration Fees',
@@ -127,6 +127,11 @@ export const translations = {
       'Affiliations universitaires ou professionnelles',
       'Coordonnées (adresse e-mail, laboratoire, institution de rattachement)'
     ],
+
+  
+    'submission.adresse': [  
+      'Les communications doivent être soumises exclusivement en ligne à l'adresse email suivante: financedurable2025@groupeiscae.ma'
+   ],  
     'fees.title': "Frais d'Inscription",
     'fees.info': "Les informations relatives aux frais de participation, le cas échéant, seront publiées sur le site de l'événement.",
     'contact.info': 'Pour toute question ou information complémentaire, veuillez contacter : financedurable2025@groupeiscae.ma',
