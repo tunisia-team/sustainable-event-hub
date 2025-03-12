@@ -111,7 +111,7 @@ export const translations = {
     'deadlines.conference.date': '13 mai 2025',
     'submission.title': 'Directives de Soumission',
     'submission.criteria': 'Les chercheurs souhaitant soumettre une communication doivent respecter les critères suivants :',
-    'submission.format': 'Les propositions doivent être rédigées en format Word (.doc, .docx) et doivent être soumises exclusivement en ligne à l'adresse email suivante: financedurable2025@groupeiscae.ma',
+    'submission.format': 'Les propositions doivent être rédigées en format Word (.doc, .docx) et doivent être soumises exclusivement en ligne à l\'adresse email suivante: financedurable2025@groupeiscae.ma',
     'submission.length': 'Le texte ne doit pas excéder 3 000 caractères, incluant :',
     'submission.requirements': [
       'Un titre provisoire',
