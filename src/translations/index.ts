@@ -61,7 +61,7 @@ export const translations = {
     
     ],
     'fees.title': 'Registration Fees',
-    'fees.info': 'Information regarding participation fees will be published on the event website.',
+    'fees.info': 'Presentations are free of charge. However, participants are responsible for certain additional costs (lunch break, etc.).',
     'contact.info': 'For any questions or additional information, please contact: financedurable2025@groupeiscae.ma',
     'organizers.title': 'Organizers',
     'organizers.participation': 'With the participation of the International Observatory of Sustainable Finance',
@@ -127,7 +127,7 @@ export const translations = {
       
    ],  
     'fees.title': "Frais d'Inscription",
-    'fees.info': "Les informations relatives aux frais de participation, le cas échéant, seront publiées sur le site de l'événement.",
+    'fees.info': "La présentation des communications sont gratuites. Toutefois, certains frais additionnels restent à la charge des participants (pause déjeuner, etc.)",
     'contact.info': 'Pour toute question ou information complémentaire, veuillez contacter : financedurable2025@groupeiscae.ma',
     'organizers.title': 'Organisateurs',
     'organizers.participation': "Avec la participation de l'Observatoire International de la Finance Durable",
