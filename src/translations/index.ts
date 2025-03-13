@@ -127,7 +127,7 @@ export const translations = {
       
    ],  
     'fees.title': "Frais d'Inscription",
-    'fees.info': "La présentation des communications sont gratuites. Toutefois, certains frais additionnels restent à la charge des participants (pause déjeuner, etc.)",
+    'fees.info': "La présentation des communications est gratuite. Toutefois, certains frais additionnels restent à la charge des participants (pause déjeuner, etc.)",
     'contact.info': 'Pour toute question ou information complémentaire, veuillez contacter : financedurable2025@groupeiscae.ma',
     'organizers.title': 'Organisateurs',
     'organizers.participation': "Avec la participation de l'Observatoire International de la Finance Durable",
