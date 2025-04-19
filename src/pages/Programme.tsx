@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Navbar } from "@/components/Navbar";
@@ -29,16 +28,21 @@ const Programme = () => {
     <div className="min-h-screen bg-white">
       <Navbar />
       <main className="pt-16">
-        {/* Hero Section */}
-        <section className="hero-gradient py-20 text-center">
-          <div className="max-w-4xl mx-auto px-4">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">{t('schedule.title')}</h1>
-            <h2 className="text-2xl md:text-3xl mb-4">{t('schedule.subtitle')}</h2>
-            <p className="text-xl">{t('schedule.date')}</p>
+        {/* Hero Section - Matching Index page style */}
+        <section className="hero-gradient min-h-[60vh] flex items-center justify-center">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-primary mb-4">
+              {t('schedule.title')}
+            </h1>
+            <p className="text-2xl sm:text-3xl text-gray-600 mb-4">
+              {t('schedule.subtitle')}
+            </p>
+            <div className="text-lg">
+              {t('schedule.date')}
+            </div>
           </div>
         </section>
 
-        {/* OrganizersSection - Moved to top, after hero section */}
         <OrganizersSection />
 
         {/* Schedule Section */}
