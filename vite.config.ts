@@ -12,7 +12,11 @@ export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
     mode === 'development' &&
-    componentTagger(),
+    componentTagger({
+      // Latest configuration options
+      enableSourceMaps: true,
+      enableHotReload: true
+    }),
   ].filter(Boolean),
   resolve: {
     alias: {
