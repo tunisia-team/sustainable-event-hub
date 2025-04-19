@@ -1,3 +1,4 @@
+
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
@@ -19,8 +20,8 @@ export default defineConfig(({ mode }) => ({
     },
   },
   build: {
-    outDir: 'dist', // This is the default, but let's be explicit
+    outDir: 'dist',
     sourcemap: true
   },
-  base: '/' // This ensures assets are loaded correctly
+  base: '/'
 }));
