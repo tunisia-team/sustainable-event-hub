@@ -43,7 +43,6 @@ const Schedule = () => {
           "• Mme. Leila BENALI - Ministre de la Transition énergétique et du Développement durable (à confirmer)",
           "• Mme. Assia BENHIDA – Présidente de la commission durable CGEM",
           "• Mr. Mohamed Vall EL ALEM – Secrétaire Général de l'UBM",
-          "• Mr. Nabil BADR - Banque El Maghrib (Supervision bancaire) (à confirmer)",
           "• Mme. Jamila ALAMI – CNRST"
         ]
       }
