@@ -1,4 +1,5 @@
 
+import React from 'react';
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Navbar } from "@/components/Navbar";
 import { OrganizersSection } from "@/components/sections/OrganizersSection";
