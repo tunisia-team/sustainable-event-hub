@@ -39,7 +39,7 @@ export function Navbar() {
               <a href="#about">{t('nav.about')}</a>
             </Button>
             <Button variant="ghost" asChild>
-              <a href="#schedule">{t('nav.schedule')}</a>
+              <a href="/programme">{t('nav.programme')}</a>
             </Button>
             <Button variant="ghost" asChild>
               <a href="#speakers">{t('nav.speakers')}</a>
@@ -59,7 +59,7 @@ export function Navbar() {
                 <a href="#about">{t('nav.about')}</a>
               </Button>
               <Button variant="ghost" className="w-full justify-start" asChild>
-                <a href="#schedule">{t('nav.schedule')}</a>
+                <a href="/programme">{t('nav.programme')}</a>
               </Button>
               <Button variant="ghost" className="w-full justify-start" asChild>
                 <a href="#speakers">{t('nav.speakers')}</a>
