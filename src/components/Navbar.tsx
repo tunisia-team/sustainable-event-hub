@@ -45,12 +45,6 @@ export function Navbar() {
             <Button variant="ghost" asChild>
               <Link to="/schedule">{t('nav.schedule')}</Link>
             </Button>
-            <Button variant="ghost" asChild>
-              <Link to="#speakers">{t('nav.speakers')}</Link>
-            </Button>
-            <Button variant="ghost" asChild>
-              <Link to="#partners">{t('nav.partners')}</Link>
-            </Button>
             <LanguageSwitch />
           </div>
         </div>
@@ -64,12 +58,6 @@ export function Navbar() {
               </Button>
               <Button variant="ghost" className="w-full justify-start" asChild>
                 <Link to="/schedule">{t('nav.schedule')}</Link>
-              </Button>
-              <Button variant="ghost" className="w-full justify-start" asChild>
-                <Link to="#speakers">{t('nav.speakers')}</Link>
-              </Button>
-              <Button variant="ghost" className="w-full justify-start" asChild>
-                <Link to="#partners">{t('nav.partners')}</Link>
               </Button>
             </div>
           </div>
