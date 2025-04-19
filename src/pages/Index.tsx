@@ -1,3 +1,4 @@
+
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Navbar } from "@/components/Navbar";
 import { OrganizersSection } from "@/components/sections/OrganizersSection";
@@ -46,7 +47,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-8">{t('objectives.title')}</h2>
           <ul className="max-w-3xl mx-auto space-y-4">
-            {(t('objectives.list') as string[]).map((objective, index) => (
+            {Array.isArray(t('objectives.list')) && (t('objectives.list') as string[]).map((objective, index) => (
               <li key={index} className="flex items-start">
                 <span className="text-primary mr-2">•</span>
                 <span>{objective}</span>
@@ -61,7 +62,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-8">{t('topics.title')}</h2>
           <ul className="max-w-3xl mx-auto space-y-4">
-            {(t('topics.list') as string[]).map((topic, index) => (
+            {Array.isArray(t('topics.list')) && (t('topics.list') as string[]).map((topic, index) => (
               <li key={index} className="flex items-start">
                 <span className="text-primary mr-2">•</span>
                 <span>{topic}</span>
@@ -105,13 +106,13 @@ const Index = () => {
             <p>{t('submission.format')}</p>
             <p>{t('submission.length')}</p>
             <ul className="list-disc pl-6 space-y-2">
-              {(t('submission.requirements') as string[]).map((req, index) => (
+              {Array.isArray(t('submission.requirements')) && (t('submission.requirements') as string[]).map((req, index) => (
                 <li key={index}>{req}</li>
               ))}
             </ul>
             <p className="mt-4">{t('submission.info')}</p>
             <ul className="list-disc pl-6 space-y-2">
-              {(t('submission.author.info') as string[]).map((info, index) => (
+              {Array.isArray(t('submission.author.info')) && (t('submission.author.info') as string[]).map((info, index) => (
                 <li key={index}>{info}</li>
               ))}
             </ul>
