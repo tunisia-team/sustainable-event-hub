@@ -39,7 +39,7 @@ const Schedule = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-xl text-primary mb-4">{t('event.callForPapers')}</h2>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-primary mb-4">
-            {language === 'fr' ? 'Programme Provisoire' : 'Provisional Schedule'}
+            {t('event.title')}
           </h1>
           <p className="text-2xl sm:text-3xl text-gray-600 mb-4">
             {t('event.subtitle')}
