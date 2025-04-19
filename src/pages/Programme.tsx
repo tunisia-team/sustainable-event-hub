@@ -38,6 +38,9 @@ const Programme = () => {
           </div>
         </section>
 
+        {/* OrganizersSection - Moved to top, after hero section */}
+        <OrganizersSection />
+
         {/* Schedule Section */}
         <section className="max-w-4xl mx-auto px-4 py-16">
           <h2 className="text-3xl font-bold text-center mb-12">{t('schedule.provisional')}</h2>
@@ -96,9 +99,6 @@ const Programme = () => {
             </div>
           </div>
         </section>
-
-        {/* Reuse OrganizersSection */}
-        <OrganizersSection />
       </main>
     </div>
   );
