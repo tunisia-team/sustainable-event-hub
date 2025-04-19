@@ -118,7 +118,8 @@ const Schedule = () => {
     {
       time: "17h00-18h00",
       fr: "• Recommandations des 3emes Rencontres de la Finance durable\n• Réunion annuelle de l'AFN/OAFD",
-      en: "• Recommendations from the 3rd Sustainable Finance Meeting\n• Annual AFN/OAFD Meeting"
+      en: "• Recommendations from the 3rd Sustainable Finance Meeting\n• Annual AFN/OAFD Meeting",
+      multiline: true  // Added a flag to identify this item needs special handling
     }
   ];
 
@@ -150,7 +151,7 @@ const Schedule = () => {
       <section className="section-padding bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-8">
-            {language === 'fr' ? 'Programme Provisoir' : 'Provisional Schedule'}
+            {language === 'fr' ? 'Programme Détaillé' : 'Detailed Schedule'}
           </h2>
           <div className="space-y-8">
             {scheduleData.map((item, index) => (
@@ -161,16 +162,22 @@ const Schedule = () => {
                       <div className="text-lg font-semibold text-primary">{item.time}</div>
                     </div>
                     <div className="md:w-5/6">
-                      <h3 className="text-xl font-semibold mb-2">
-                        {language === 'fr' ? 
-                          (item.title ? item.title.fr : item.fr) : 
-                          (item.title ? item.title.en : item.en)}
-                      </h3>
+                      {/* For items with title */}
+                      {item.title ? (
+                        <h3 className="text-xl font-semibold mb-2">
+                          {language === 'fr' ? item.title.fr : item.title.en}
+                        </h3>
+                      ) : (
+                        /* For regular text items, with special handling for multiline */
+                        <h3 className={`text-xl font-semibold mb-2 ${item.multiline ? 'whitespace-pre-line' : ''}`}>
+                          {language === 'fr' ? item.fr : item.en}
+                        </h3>
+                      )}
                       
                       {item.speakers && (
                         <div className="mt-2 space-y-1">
                           {item.speakers.map((speaker, idx) => (
-                            <p key={idx} className="text-gray-600">{speaker}</p>
+                            <p key={idx} className="text-gray-600 whitespace-pre-line">{speaker}</p>
                           ))}
                         </div>
                       )}
