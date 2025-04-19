@@ -131,7 +131,7 @@ const Schedule = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-xl text-primary mb-4">{t('event.callForPapers')}</h2>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-primary mb-4">
-            {language === 'fr' ? 'Programme' : 'Schedule'}
+            {t('event.title')}
           </h1>
           <p className="text-2xl sm:text-3xl text-gray-600 mb-4">
             {t('event.subtitle')}
@@ -179,7 +179,7 @@ const Schedule = () => {
                         <div className="mt-3">
                           <p className="font-medium text-gray-800">{item.panelists.chair}</p>
                           <div className="mt-2 space-y-1 pl-4">
-                            {item.panelists.members.map((member, idx) => (
+                            {item.panelists.members?.map((member, idx) => (
                               <p key={idx} className="text-gray-600 whitespace-pre-line">{member}</p>
                             ))}
                           </div>
