@@ -1,4 +1,3 @@
-
 export const translations = {
   en: {
     'event.title': 'Third Sustainable Finance Meeting',
@@ -7,7 +6,7 @@ export const translations = {
     'event.date': 'May 13, 2025',
     'event.location': 'ISCAE-Casablanca, Morocco',
     'event.theme': 'Impact Finance in Africa',
-    'nav.about': 'About',
+    'nav.home': 'Home',
     'nav.schedule': 'Schedule',
     'nav.speakers': 'Speakers',
     'nav.partners': 'Partners',
@@ -73,7 +72,7 @@ export const translations = {
     'event.date': '13 mai 2025',
     'event.location': 'ISCAE-Casablanca, Maroc',
     'event.theme': 'Finance à Impact en Afrique',
-    'nav.about': 'À propos',
+    'nav.home': 'Accueil',
     'nav.schedule': 'Programme',
     'nav.speakers': 'Intervenants',
     'nav.partners': 'Partenaires',

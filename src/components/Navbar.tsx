@@ -1,8 +1,10 @@
+
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { LanguageSwitch } from "./LanguageSwitch";
 import { Menu } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export function Navbar() {
   const { t } = useLanguage();
@@ -13,11 +15,13 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <img 
-              src="/lovable-uploads/ISCAE_Logo.png"
-              alt="ISCAE"
-              className="h-24 w-auto"
-            />
+            <Link to="/">
+              <img 
+                src="/lovable-uploads/ISCAE_Logo.png"
+                alt="ISCAE"
+                className="h-24 w-auto"
+              />
+            </Link>
           </div>
           
           {/* Mobile menu button */}
@@ -36,16 +40,16 @@ export function Navbar() {
           {/* Desktop menu */}
           <div className="hidden md:flex items-center space-x-8">
             <Button variant="ghost" asChild>
-              <a href="#about">{t('nav.about')}</a>
+              <Link to="/">{t('nav.home')}</Link>
             </Button>
             <Button variant="ghost" asChild>
-              <a href="#schedule">{t('nav.schedule')}</a>
+              <Link to="/schedule">{t('nav.schedule')}</Link>
             </Button>
             <Button variant="ghost" asChild>
-              <a href="#speakers">{t('nav.speakers')}</a>
+              <Link to="#speakers">{t('nav.speakers')}</Link>
             </Button>
             <Button variant="ghost" asChild>
-              <a href="#partners">{t('nav.partners')}</a>
+              <Link to="#partners">{t('nav.partners')}</Link>
             </Button>
             <LanguageSwitch />
           </div>
@@ -56,16 +60,16 @@ export function Navbar() {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               <Button variant="ghost" className="w-full justify-start" asChild>
-                <a href="#about">{t('nav.about')}</a>
+                <Link to="/">{t('nav.home')}</Link>
               </Button>
               <Button variant="ghost" className="w-full justify-start" asChild>
-                <a href="#schedule">{t('nav.schedule')}</a>
+                <Link to="/schedule">{t('nav.schedule')}</Link>
               </Button>
               <Button variant="ghost" className="w-full justify-start" asChild>
-                <a href="#speakers">{t('nav.speakers')}</a>
+                <Link to="#speakers">{t('nav.speakers')}</Link>
               </Button>
               <Button variant="ghost" className="w-full justify-start" asChild>
-                <a href="#partners">{t('nav.partners')}</a>
+                <Link to="#partners">{t('nav.partners')}</Link>
               </Button>
             </div>
           </div>
