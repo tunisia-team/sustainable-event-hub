@@ -12,7 +12,7 @@ const Index = () => {
       {/* Hero Section */}
       <section className="hero-gradient min-h-[60vh] flex items-center justify-center pt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-xl text-primary mb-4">{t('event.callForPapers')}</h2>
+          {/* <h2 className="text-xl text-primary mb-4">{t('event.callForPapers')}</h2> */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-primary mb-4">
             {t('event.title')}
           </h1>
