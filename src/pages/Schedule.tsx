@@ -1,8 +1,7 @@
-
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Navbar } from "@/components/Navbar";
+import { OrganizersSection } from "@/components/sections/OrganizersSection";
 import { Card, CardContent } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
 
 const Schedule = () => {
   const { t, language } = useLanguage();
@@ -36,20 +35,31 @@ const Schedule = () => {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="hero-gradient min-h-[40vh] flex items-center justify-center pt-16">
+      <section className="hero-gradient min-h-[60vh] flex items-center justify-center pt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-xl text-primary mb-4">{t('event.callForPapers')}</h2>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-primary mb-4">
             {language === 'fr' ? 'Programme Provisoire' : 'Provisional Schedule'}
           </h1>
           <p className="text-2xl sm:text-3xl text-gray-600 mb-4">
-            {t('event.date')} • {t('event.location')}
+            {t('event.subtitle')}
           </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
+            <div className="text-lg font-semibold">{t('event.date')}</div>
+            <div className="hidden sm:block">•</div>
+            <div className="text-lg font-semibold">{t('event.location')}</div>
+          </div>
         </div>
       </section>
 
+      <OrganizersSection />
+
       {/* Schedule Content */}
-      <section className="py-12 px-4 sm:px-6 lg:px-8">
+      <section className="section-padding bg-gray-50">
         <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-8">
+            {language === 'fr' ? 'Programme Détaillé' : 'Detailed Schedule'}
+          </h2>
           <div className="space-y-8">
             {scheduleData.map((item, index) => (
               <Card key={index} className="overflow-hidden">
@@ -60,7 +70,9 @@ const Schedule = () => {
                     </div>
                     <div className="md:w-5/6">
                       <h3 className="text-xl font-semibold mb-2">
-                        {language === 'fr' ? item.fr : item.en}
+                        {language === 'fr' ? 
+                          (item.title ? item.title.fr : item.fr) : 
+                          (item.title ? item.title.en : item.en)}
                       </h3>
                       {item.speakers && (
                         <div className="mt-2 space-y-1">
@@ -82,6 +94,13 @@ const Schedule = () => {
               </Card>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section className="section-padding bg-white">
+        <div className="max-w-7xl mx-auto text-center">
+          <p>{t('contact.info')}</p>
         </div>
       </section>
     </div>
