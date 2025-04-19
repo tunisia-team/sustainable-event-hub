@@ -39,12 +39,12 @@ const Schedule = () => {
       panelists: {
         chair: "Président : Christian de BOISSIEU",
         members: [
-          "Mme. Nadia FETTAH ALAOUI - Ministre de l'Économie et des Finances (à confirmer)",
-          "Mme. Leila BENALI - Ministre de la Transition énergétique et du Développement durable (à confirmer)",
-          "Mme. Assia BENHIDA – Présidente de la commission durable CGEM",
-          "Mr. Mohamed Vall EL ALEM – Secrétaire Général de l'UBM",
-          "Mr. Nabil BADR - Banque El Maghrib (Supervision bancaire) (à confirmer)",
-          "Mme. Jamila ALAMI – CNRST"
+          "• Mme. Nadia FETTAH ALAOUI - Ministre de l'Économie et des Finances (à confirmer)",
+          "• Mme. Leila BENALI - Ministre de la Transition énergétique et du Développement durable (à confirmer)",
+          "• Mme. Assia BENHIDA – Présidente de la commission durable CGEM",
+          "• Mr. Mohamed Vall EL ALEM – Secrétaire Général de l'UBM",
+          "• Mr. Nabil BADR - Banque El Maghrib (Supervision bancaire) (à confirmer)",
+          "• Mme. Jamila ALAMI – CNRST"
         ]
       }
     },
@@ -62,8 +62,8 @@ const Schedule = () => {
       panelists: {
         chair: "Président de séance : Nathalie HELMI",
         members: [
-          "Mr. Mamoun TAHRI JOUTEI, Directeur Central Intelligence Economique et Développement Durable Bank Of Africa\n« Durabilité et Services Non Financiers, le retour d'expérience de Bank Of Africa»",
-          "Mr. Dhafer SAIDANE, Mme. Sana BEN ABDALLAH, Mr. Mihaly PETRECZKY (AFN-OAFD)\n\"Le SPI appliqué à la BOA : résultats de la méthodologie »"
+          "• Mr. Mamoun TAHRI JOUTEI, Directeur Central Intelligence Economique et Développement Durable Bank Of Africa\n« Durabilité et Services Non Financiers, le retour d'expérience de Bank Of Africa»",
+          "• Mr. Dhafer SAIDANE, Mme. Sana BEN ABDALLAH, Mr. Mihaly PETRECZKY (AFN-OAFD)\n\"Le SPI appliqué à la BOA : résultats de la méthodologie »"
         ]
       }
     },
@@ -74,10 +74,10 @@ const Schedule = () => {
         en: "Round Table: Expert Testimonials"
       },
       speakers: [
-        "Mr. Oussama GHAZI - Epitome Advisory",
-        "Mme. Assia BENHIDA – Présidente de la commission durable CGEM",
-        "Elyes BEN RAYANA - Value",
-        "Mongi BEN TKHAYAT - AMEF Consulting"
+        "• Mr. Oussama GHAZI - Epitome Advisory",
+        "• Mme. Assia BENHIDA – Présidente de la commission durable CGEM",
+        "• Elyes BEN RAYANA - Value",
+        "• Mongi BEN TKHAYAT - AMEF Consulting"
       ]
     },
     {
@@ -150,7 +150,7 @@ const Schedule = () => {
       <section className="section-padding bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-8">
-            {language === 'fr' ? 'Programme Détaillé' : 'Detailed Schedule'}
+            {language === 'fr' ? 'Programme Provisoir' : 'Provisional Schedule'}
           </h2>
           <div className="space-y-8">
             {scheduleData.map((item, index) => (
