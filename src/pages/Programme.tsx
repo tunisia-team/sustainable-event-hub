@@ -8,6 +8,22 @@ const Programme = () => {
   const sessions = t('schedule.sessions') as Record<string, any>;
   const axes = t('schedule.axes') as string[];
 
+  // Helper function to render complex speaker data
+  const renderSpeakerContent = (speaker: any) => {
+    if (typeof speaker === 'string') {
+      return <li>{speaker}</li>;
+    } else if (typeof speaker === 'object') {
+      return (
+        <li>
+          {speaker.name && <span>{speaker.name}</span>}
+          {speaker.role && <span>, {speaker.role}</span>}
+          {speaker.topic && <p className="ml-4 italic">"{speaker.topic}"</p>}
+        </li>
+      );
+    }
+    return null;
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
@@ -34,10 +50,19 @@ const Programme = () => {
                 ) : (
                   <div className="space-y-2">
                     {details.title && <h4 className="font-semibold">{details.title}</h4>}
-                    {details.speakers && (
+                    {details.keynote && (
+                      <div className="my-3 p-3 bg-gray-50 rounded">
+                        <p><strong>Keynote speaker:</strong> {details.keynote.speaker}</p>
+                        {details.keynote.role && <p>{details.keynote.role}</p>}
+                        {details.keynote.topic && <p className="italic">"{details.keynote.topic}"</p>}
+                      </div>
+                    )}
+                    {details.speakers && Array.isArray(details.speakers) && (
                       <ul className="list-disc list-inside space-y-1">
-                        {details.speakers.map((speaker: string, index: number) => (
-                          <li key={index}>{speaker}</li>
+                        {details.speakers.map((speaker: any, index: number) => (
+                          <React.Fragment key={index}>
+                            {renderSpeakerContent(speaker)}
+                          </React.Fragment>
                         ))}
                       </ul>
                     )}
