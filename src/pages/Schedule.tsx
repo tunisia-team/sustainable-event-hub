@@ -23,7 +23,7 @@ const Schedule = () => {
         "Ryad MEZZOUR - Ministre de l'Industrie et du commerce, Maroc"
       ],
       special: {
-        fr: "Signature de la Convention\nChaire Panafricaine de Durabilité et Finance à Impact, AFN-OAFD et ISCAE.",
+        fr: "Signature de la Convention Chaire Panafricaine de Durabilité et Finance à Impact, AFN-OAFD et ISCAE.",
         en: "Convention Signing\nPan-African Chair of Sustainability and Impact Finance, AFN-OAFD and ISCAE."
       }
     },
