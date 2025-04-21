@@ -19,8 +19,8 @@ const Schedule = () => {
         en: "Welcome Address"
       },
       speakers: [
-        "Tarik EL MALKI – Directeur Général du Groupe ISCAE, Maroc",
-        "Ryad MEZZOUR - Ministre de l'Industrie et du commerce, Maroc"
+        "Mr. Tarik EL MALKI – Directeur Général du Groupe ISCAE, Maroc",
+        "Mr. Ryad MEZZOUR - Ministre de l'Industrie et du commerce, Maroc"
       ],
       special: {
         fr: "Signature de la Convention Chaire Panafricaine de Durabilité et Finance à Impact, AFN-OAFD et ISCAE.",
@@ -75,8 +75,8 @@ const Schedule = () => {
       speakers: [
         "• Mr. Oussama GHAZI - Epitome Advisory",
         "• Mme. Assia BENHIDA – Présidente de la commission durable CGEM",
-        "• Elyes BEN RAYANA - Value",
-        "• Mongi BEN TKHAYAT - AMEF Consulting"
+        "• Mr. Elyes BEN RAYANA - Value",
+        "• Mr. Mongi BEN TKHAYAT - AMEF Consulting"
       ]
     },
     {
