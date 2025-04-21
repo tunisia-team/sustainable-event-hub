@@ -100,7 +100,7 @@ const Schedule = () => {
       },
       special: {
         fr: "Ateliers de recherche : Finance durable, mesure d'impact en Afrique, réglementation ESG, financement de la transition écologique en Afrique, la double transition : écologique et numérique, Mécanismes de compensation et transferts « Pollueur/Payeur »…",
-        en: "Research Workshops: Sustainable Finance, Impact Measurement in Africa, ESG Regulation, Financing Ecological Transition in Africa, the Double Transition: Ecological and Digital, Compensation Mechanisms and \"Polluter/Payer\" Transfers..."
+        en: "Research Workshops: Sustainable Finance, Impact Measurement in Africa, ESG Regulation, Financing Ecological Transition in Africa, the Double Transition: Ecological and Digital, Compensation Mechanisms and \"Polluter/Payeur\" Transfers..."
       },
       tracks: [
         "Axe 1 : Responsabilité sociale et gouvernance d'entreprise",
@@ -161,13 +161,11 @@ const Schedule = () => {
                       <div className="text-lg font-semibold text-primary">{item.time}</div>
                     </div>
                     <div className="md:w-5/6">
-                      {/* For items with title */}
                       {item.title ? (
                         <h3 className="text-xl font-semibold mb-2">
                           {language === 'fr' ? item.title.fr : item.title.en}
                         </h3>
                       ) : (
-                        /* For regular text items, with special handling for multiline */
                         <h3 className={`text-xl font-semibold mb-2 ${item.multiline ? 'whitespace-pre-line' : ''}`}>
                           {language === 'fr' ? item.fr : item.en}
                         </h3>
@@ -193,8 +191,8 @@ const Schedule = () => {
                       )}
                       
                       {item.special && (
-                        <div className="mt-4 p-4 bg-primary/5 rounded-lg">
-                          <p className="whitespace-pre-line">
+                        <div className="mt-4 p-4 bg-gray-100 rounded-lg">
+                          <p className="whitespace-pre-line text-gray-900">
                             {language === 'fr' ? item.special.fr : item.special.en}
                           </p>
                         </div>
