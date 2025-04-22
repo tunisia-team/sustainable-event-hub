@@ -59,7 +59,7 @@ const Schedule = () => {
         en: "Expertise – ESG Performance Measurement in Africa: the BOA/OAFD System"
       },
       panelists: {
-        chair: "Président de séance : Nathalie HELMI",
+        chair: "Président de séance : Nathalie HILMI",
         members: [
           "• Mr. Mamoun TAHRI JOUTEI, Directeur Central Intelligence Economique et Développement Durable Bank Of Africa\n« Durabilité et Services Non Financiers, le retour d'expérience de Bank Of Africa»",
           "• Mr. Dhafer SAIDANE, Mme. Sana BEN ABDALLAH, Mr. Mihaly PETRECZKY (AFN-OAFD)\n\"Le SPI appliqué à la BOA : résultats de la méthodologie »"
