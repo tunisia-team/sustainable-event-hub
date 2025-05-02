@@ -39,8 +39,8 @@ const Schedule = () => {
       panelists: {
         chair: "Président : Christian de BOISSIEU",
         members: [
-          "• Mme. Nadia FETTAH ALAOUI - Ministre de l'Économie et des Finances (à confirmer)",
-          "• Mme. Leila BENALI - Ministre de la Transition énergétique et du Développement durable (à confirmer)",
+          "• Mme. Nadia FETTAH ALAOUI - Ministre de l'Économie et des Finances",
+          "• Mme. Leila BENALI - Ministre de la Transition énergétique et du Développement durable",
           "• Mme. Assia BENHIDA – Présidente de la commission durable CGEM",
           "• Mr. Mohamed Vall EL ALEM – Secrétaire Général de l'UBM",
           "• Mme. Jamila ALAMI – CNRST"
