@@ -37,13 +37,13 @@ const Schedule = () => {
         "Keynote speaker : Brahim BENJELLOUN TOUIMI- Administrateur Directeur Général Délégué Bank Of Africa – Stratégie de la BOA en matière de finance durable"
       ],
       panelists: {
-        chair: "Président : Christian de BOISSIEU",
+        chair: "Président : Christian de BOISSIEU - Professeur émérite à l’université Paris-I Panthéon-Sorbonne",
         members: [
           "• Mme. Nadia FETTAH ALAOUI - Ministre de l'Économie et des Finances",
           "• Mme. Leila BENALI - Ministre de la Transition énergétique et du Développement durable",
           "• Mme. Assia BENHIDA – Présidente de la commission durable CGEM",
           "• Mr. Mohamed Vall EL ALEM – Secrétaire Général de l'UBM",
-          "• Mme. Jamila ALAMI – CNRST"
+          "• Mme. Jamila ALAMI – Directrice du CNRST"
         ]
       }
     },
@@ -59,7 +59,7 @@ const Schedule = () => {
         en: "Expertise – ESG Performance Measurement in Africa: the BOA/OAFD System"
       },
       panelists: {
-        chair: "Président de séance : Nathalie HILMI",
+        chair: "Président de séance : Nathalie HILMI - Professeur, chargée de recherche en économie environnementale au Centre Scientifique de Monaco",
         members: [
           "• Mr. Mamoun TAHRI JOUTEI, Directeur Central Intelligence Economique et Développement Durable Bank Of Africa\n« Durabilité et Services Non Financiers, le retour d'expérience de Bank Of Africa»",
           "• Mr. Dhafer SAIDANE, Mme. Sana BEN ABDALLAH, Mr. Mihaly PETRECZKY (AFN-OAFD)\n\"Le SPI appliqué à la BOA : résultats de la méthodologie »"
@@ -96,7 +96,7 @@ const Schedule = () => {
         en: "Parallel Sessions"
       },
       panelists: {
-        chair: "Présidents : Maher GASSAB/ Adil BAMI/Foued GABSI/ Ines EL FARISSI/ Dhafer SAIDANE / Karim CHARAF/ Amine ISSAMI/ Nathalie HILMI/ Siham MEKNASSI/ Karim KAMMOUN/ Jihane AAYALE/ Mariam SEFFAR/ Halima BAGHAD/ Meriam BOUYZEM/ Azzelarab ZAOUDI/ Imane BOUDRI/ Fouad MACHROUH",
+        chair: "Présidents : Maher GASSAB/ Adil BAMI/Foued GABSI/ Dhafer SAIDANE / Karim CHARAF/ Amine ISSAMI/ Nathalie HILMI/ Siham MEKNASSI/ Karim KAMMOUN/ Jihane AAYALE/ Mariam SEFFAR/ Halima BAGHAD/ Meriam BOUYZEM/ Fouad MACHROUH",
       },
       special: {
         fr: "Ateliers de recherche : Finance durable, mesure d'impact en Afrique, réglementation ESG, financement de la transition écologique en Afrique, la double transition : écologique et numérique, Mécanismes de compensation et transferts « Pollueur/Payeur »…",
@@ -106,12 +106,13 @@ const Schedule = () => {
         "Axe 1 : Responsabilité sociale et gouvernance d'entreprise",
         "Axe 2 : Fintech et innovation en finance durable",
         "Axe 3 : Finance durable et secteur bancaire",
-        "Axe 4 : Performance financière et ESG",
+        "Axe 4 : Instruments financiers durables, marchés et innovations ",
         "Axe 5 : Transition climatique et finance verte",
-        "Axe 6 : Croissance et développement durable",
-        "Axe 7 : Tendances ESG : Mesures bibliométriques et études critiques",
+        "Axe 6 : ESG, RSE et performance des entreprises",
+        "Axe 7 : Politiques publiques, développement durable et stabilité économique",
         "Axe 8 : Réglementations, conformité et normes ESG",
         "Axe 9 : ESG, comptabilité et audit"
+        "Axe 10 : Tendances ESG : Mesures bibliométriques et études critiques"
       ]
     },
     {
