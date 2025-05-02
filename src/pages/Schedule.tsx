@@ -96,7 +96,7 @@ const Schedule = () => {
         en: "Parallel Sessions"
       },
       panelists: {
-        chair: "Présidents : Maher GASSAB/ Adil BAMI/Foued GABSI/ Ines EL FARISSI/ Dhafer SAIDANE / Karim CHARAF/ Amine ISSAMI/ Nathalie HILMI/ Siham MEKNASSI Karim KAMMOUN/ Jihane AAYALE/ Mariam SEFFAR/ Halima BAGHAD/ Meriam BOUYZEM/ Azzelarab ZAOUDI/ Imane BOUDRI/ Fouad MACHROUH",
+        chair: "Présidents : Maher GASSAB/ Adil BAMI/Foued GABSI/ Ines EL FARISSI/ Dhafer SAIDANE / Karim CHARAF/ Amine ISSAMI/ Nathalie HILMI/ Siham MEKNASSI/ Karim KAMMOUN/ Jihane AAYALE/ Mariam SEFFAR/ Halima BAGHAD/ Meriam BOUYZEM/ Azzelarab ZAOUDI/ Imane BOUDRI/ Fouad MACHROUH",
       },
       special: {
         fr: "Ateliers de recherche : Finance durable, mesure d'impact en Afrique, réglementation ESG, financement de la transition écologique en Afrique, la double transition : écologique et numérique, Mécanismes de compensation et transferts « Pollueur/Payeur »…",
