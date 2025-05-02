@@ -73,10 +73,10 @@ const Schedule = () => {
         en: "Round Table: Expert Testimonials"
       },
       speakers: [
-        "• Mr. Oussama GHAZI - Epitome Advisory",
+        "• Mr. Oussama GHAZI - CEO de Epitome Advisory",
         "• Mme. Assia BENHIDA – Présidente de la commission durable CGEM",
-        "• Mr. Elyes BEN RAYANA - Value",
-        "• Mr. Mongi BEN TKHAYAT - AMEF Consulting"
+        "• Mr. Elyes BEN RAYANA - CEO de Value",
+        "• Mr. Mongi BEN TKHAYAT - Managing Partner de AMEF Consulting"
       ]
     },
     {
