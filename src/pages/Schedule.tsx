@@ -13,7 +13,7 @@ const Schedule = () => {
       en: "Participant Registration"
     },
     {
-      time: "9h00-9h30",
+      time: "9h00-9h30", 
       title: {
         fr: "Mot de bienvenue",
         en: "Welcome Address"
