@@ -151,7 +151,7 @@ const Schedule = () => {
       <section className="section-padding bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-8">
-            {language === 'fr' ? 'Programme Provisoir' : 'Provisional Schedule'}
+            {language === 'fr' ? 'Programme Provisoire' : 'Provisional Schedule'}
           </h2>
           <div className="space-y-8">
             {scheduleData.map((item, index) => (
