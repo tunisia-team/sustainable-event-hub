@@ -111,7 +111,7 @@ const Schedule = () => {
         "Axe 6 : ESG, RSE et performance des entreprises",
         "Axe 7 : Politiques publiques, développement durable et stabilité économique",
         "Axe 8 : Réglementations, conformité et normes ESG",
-        "Axe 9 : ESG, comptabilité et audit"
+        "Axe 9 : ESG, comptabilité et audit",
         "Axe 10 : Tendances ESG : Mesures bibliométriques et études critiques"
       ]
     },
